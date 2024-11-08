@@ -44,6 +44,10 @@ MASTER_COPIES: Dict[EthereumNetwork, List[Tuple[str, int, str]]] = {
         ("0x8942595A2dC5181Df0465AF0D7be08c8f23C93af", 6766257, "0.1.0"),
         ("0xAC6072986E985aaBE7804695EC2d8970Cf7541A2", 6569433, "0.0.2"),
     ],
+     EthereumNetwork.BOBA_NETWORK_SEPOLIA: [
+        ("0xfb1bffC9d739B8D520DaF37dF666da4C687191EA", 8926694, "1.3.0+L2"),
+        ("0x69f4D1788e39c87893C980c06EdF4b7f686e2938", 8927245, "1.3.0"),
+    ],
     EthereumNetwork.RINKEBY: [
         ("0x3E5c63644E683549055b9Be8653de26E0B4CD36E", 8527380, "1.3.0+L2"),
         ("0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552", 8527381, "1.3.0"),
@@ -2594,6 +2598,9 @@ PROXY_FACTORIES: Dict[EthereumNetwork, List[Tuple[str, int]]] = {
     EthereumNetwork.FLARE_TESTNET_COSTON2: [
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 3526),  # v1.3.0
         ("0x4e1DCf7AD4e460CfD30791CCC4F9c8a4f820ec67", 10423552),  # v1.4.1
+    ],
+    EthereumNetwork.BOBA_NETWORK_SEPOLIA: [
+        ("0xC22834581EbC8527d974F8a1c97E1bEA4EF910BC", 8926647),  # v1.3.0
     ],
     EthereumNetwork.NAL_SEPOLIA_TESTNET: [
         ("0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2", 2074580),  # v1.3.0
